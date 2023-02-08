@@ -67,4 +67,22 @@ fail 就会产生两个文件
 好像是图片查看器
 暂未了解相关内容
 
+## scripts
+一些状态栏图标设置，脚本
+
+## xinitrc
+复制其内容到家目录下
+
+## 启用多屏幕
+> xrandr  #查看目前有哪些屏幕
+
+例如我的显示了正在显示的HDMI2
+和显示器eDPI
+> xrandr --output HDMI2 --auto --left-of eDPI
+
+若要同时显示一样的内容
+> xrandr --output HDMI2 --auto --same-as eDPI --mode 1920x1080
+> --mode 参数是指定其分辨率，可自行查看显示器是否支持
+
+
 

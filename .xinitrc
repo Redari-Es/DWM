@@ -1,6 +1,7 @@
-#xrandr --newmode "1920x1080" 220.75 1920 2064 2264 2608 1080 1083 1088 1130 -hsync +vsync
-#xrandr --addmode Virtual-1 "1920x1080_75.00"
-#xrandr --output Virtual-1 --mode "1920x1080_75.00"
+xrandr --newmode "1920x1080" 220.75 1920 2064 2264 2608 1080 1083 1088 1130 -hsync +vsync
+xrandr --addmode Virtual-1 "1920x1080_75.00"
+xrandr --output Virtual-1 --mode "1920x1080_75.00"
+xrandr --output HDMI2 --auto --left-of  eDPI
 
 source /etc/X11/xinit/xinitrc
 
@@ -26,8 +27,8 @@ fcitx5 &
 session=${1:-plasma-x11}
 
 case $session in
-		kde) exec startplasma-x11;;
-		dwm|dwm)exec startdwm;;
-		#No known session, try to run it as command
-		*)exec $1;;
+    kde) exec startplasma-x11;;
+    dwm|dwm)exec startdwm;;
+    #No known session, try to run it as command
+    *)exec $1;;
 esac

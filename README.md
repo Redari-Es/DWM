@@ -84,5 +84,13 @@ fail 就会产生两个文件
 > xrandr --output HDMI2 --auto --same-as eDPI --mode 1920x1080
 > --mode 参数是指定其分辨率，可自行查看显示器是否支持
 
+### 在多显示器进行切换
+Mod(Win) + ','
+Mod(Win) + '.'
+### 在多显示器移动窗口
+Mod(Win) + Shift + ','
+Mod(Win) + Shift + '.'
+
+
 
 

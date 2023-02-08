@@ -18,7 +18,7 @@ function up() {
 }
 function bigup() {
 	if (window.scrollByLines) window.scrollByLines(-1); // gecko
-	else window.scrollBy(0, -25); // webkit
+	else window.scrollBy(0, -30); // webkit
 }
 function down() {
 	if (window.scrollByLines) window.scrollByLines(1); // gecko
@@ -26,19 +26,19 @@ function down() {
 }
 function bigdown() {
 	if (window.scrollByLines) window.scrollByLines(1); // gecko
-	else window.scrollBy(0, 25); // webkit
+	else window.scrollBy(0, 30); // webkit
 }
 function right() {
-	window.scrollBy(12, 0);
+	window.scrollBy(15, 0);
 }
 function bigright() {
-	window.scrollBy(20, 0);
+	window.scrollBy(25, 0);
 }
 function left() {
-	window.scrollBy(-12, 0);
+	window.scrollBy(-15, 0);
 }
 function bigleft() {
-	window.scrollBy(-20, 0);
+	window.scrollBy(-25, 0);
 }
 function pageup() {
 	if (window.scrollByPages) window.scrollByPages(-1); // gecko

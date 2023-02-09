@@ -65,7 +65,7 @@ fail 就会产生两个文件
 
 ## farbfrld
 好像是图片查看器
-暂未了解相关内容
+可配合sent使用
 
 ## scripts
 一些状态栏图标设置，脚本
@@ -84,12 +84,19 @@ fail 就会产生两个文件
 > xrandr --output HDMI2 --auto --same-as eDPI --mode 1920x1080
 > --mode 参数是指定其分辨率，可自行查看显示器是否支持
 
-### 在多显示器进行切换
-Mod(Win) + ','
-Mod(Win) + '.'
-### 在多显示器移动窗口
-Mod(Win) + Shift + ','
-Mod(Win) + Shift + '.'
+
+## sent
+
+类似ppt查看文档
+
+内容中的换行是下一页
+
+我们点击回车可切换
+
+## tabbed
+
+标签页 可用于st、surf
+
 
 
 

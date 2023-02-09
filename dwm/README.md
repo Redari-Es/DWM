@@ -68,6 +68,7 @@ This is a window manager
 | XK_.           | 将当前窗口移至另一个屏幕     |
 | XK_S_,         | 在多显示器移动窗口           |
 | XK_S_.         | 在多显示器移动窗口           |
+| XK_e           | 在没用窗口使用会返回到sddm   |
 
 
 
